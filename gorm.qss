@@ -59,7 +59,7 @@ QLabel {
 }
 
 QDialog, QListView {
-	background-color: #263238;
+	background-color: #1C1F2B;
 	color: #546E7A;
 	outline: 0;
 	border: 2px solid transparent;
@@ -149,23 +149,23 @@ QCheckBox, QRadioButton {
 }
 
 QCheckBox::indicator::unchecked  {
-	background-color: #263238;
+	background-color: #1C1F2B;
 	border: 1px solid #536D79;
 }
 
 QRadioButton::indicator::unchecked {
-	background-color: #263238;
+	background-color: #1C1F2B;
 	border: 1px solid #536D79;
 	border-radius: 4px;
 }
 
 QCheckBox::indicator::checked, QTreeView::indicator::checked {
-	background-color: qradialgradient(cx:0.5, cy:0.5, fx:0.25, fy:0.15, radius:0.3, stop:0 #80CBC4, stop:1 #263238);
+	background-color: qradialgradient(cx:0.5, cy:0.5, fx:0.25, fy:0.15, radius:0.3, stop:0 #80CBC4, stop:1 #1C1F2B);
 	border: 1px solid #536D79;
 }
 
 QRadioButton::indicator::checked {
-	background-color: qradialgradient(cx:0.5, cy:0.5, fx:0.25, fy:0.15, radius:0.3, stop:0 #80CBC4, stop:1 #263238);
+	background-color: qradialgradient(cx:0.5, cy:0.5, fx:0.25, fy:0.15, radius:0.3, stop:0 #80CBC4, stop:1 #1C1F2B);
 	border: 1px solid #536D79;
 	border-radius: 4px;
 }
@@ -202,7 +202,7 @@ QTreeView QHeaderView:section {
 }
 
 QTreeView::indicator:checked {
-	background-color: qradialgradient(cx:0.5, cy:0.5, fx:0.25, fy:0.15, radius:0.3, stop:0 #80CBC4, stop:1 #263238);
+	background-color: qradialgradient(cx:0.5, cy:0.5, fx:0.25, fy:0.15, radius:0.3, stop:0 #80CBC4, stop:1 #1C1F2B);
 	border: 1px solid #536D79;
 	selection-background-color: transparent;
 }
@@ -320,7 +320,7 @@ QTreeView {
 }
 
 QMenu {
-	background-color: #2D3143;		/* File Menu Background color */
+	background-color: #1C1F2B;		/* File Menu Background color */
 	color: #546E7A;
 }
 
@@ -364,7 +364,7 @@ QMenuBar::item:pressed {
 }
 
 QToolBar {
-	background: #263238;
+	background: #1C1F2B;
 	border: 1px solid transparent;
 }
 
@@ -385,15 +385,15 @@ QToolButton:hover, QToolButton:pressed {
 
 QToolButton::menu-button {
 	background: url('./images/downarrowgray.png') center center no-repeat;
-	background-color: #263238;												/* This needs to be set to ensure the other brown arrows don't show */
+	background-color: #1C1F2B;												/* This needs to be set to ensure the other brown arrows don't show */
 }
 
 QToolButton::menu-button:hover, QToolButton::menu-button:pressed {
-	background-color: #263238;
+	background-color: #1C1F2B;
 }
 
 QStatusBar {
-	background-color: #263238;
+	background-color: #1C1F2B;
 }
 
 QLabel {
@@ -405,7 +405,7 @@ QToolButton {	/* I don't like how the items depress */
 }
 
 QToolButton:hover, QToolButton:pressed, QToolButton:checked {
-	background-color: #263238;
+	background-color: #1C1F2B;
 }
 
 QToolButton:hover {
@@ -446,7 +446,7 @@ QToolButton::menu-button:hover {
 
 QStatusBar::item {
 	color: #546E7A;
-	background-color: #263238;
+	background-color: #1C1F2B;
 }
 
 QAbstractScrollArea  {	/* Borders around the code editor and debug window */
