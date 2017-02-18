@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<style-scheme version="1.0" name="material">
+<style-scheme version="1.0" name="gorm">
   <!--
-  GitHub: https://github.com/josephspurrier/liteide-material
-  Modeled after: https://github.com/equinusocio/material-theme
+  GitHub: https://github.com/vacoj/gorm-liteide-theme
+  Modeled after: http://jinzhu.me/gorm/ and https://github.com/josephspurrier/liteide-material
   Color Help: https://github.com/visualfc/liteide/blob/master/liteidex/deploy/liteeditor/color/colorhelp.md
   -->
 
