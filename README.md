@@ -1,4 +1,4 @@
-# gormtheme-liteide
+# gorm theme for liteide
 
 ## A LiteIDE editor and app theme set using GORM colors
 
