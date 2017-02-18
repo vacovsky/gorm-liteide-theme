@@ -6,34 +6,34 @@
   Color Help: https://github.com/visualfc/liteide/blob/master/liteidex/deploy/liteeditor/color/colorhelp.md
   -->
 
-  <!-- Text color and background -->
-  <style name="Text" foreground="#9DBED8" background="#1C1F2B"/>
+  <!-- Text color and background 1C1F2B-->
+  <style name="Text" foreground="#9DBED8" background="#2D3143"/>
   <!-- Line numbering and background -->
-  <style name="Extra" foreground="#546E7A" background="#263238"/> 
+  <style name="Extra" foreground="#546E7A" background="#1C1F2B"/> 
   <!-- Text highlighting -->
   <style name="Selection" background="#314549"/>
    <!-- Current line where the cursor is -->
-  <style name="CurrentLine" background="#263238"/>
+  <style name="CurrentLine" background="#1C1F2B"/>
    <!-- 80 pixel margins -->
   <style name="IndentLine" foreground="#80CBC4"/>
    <!-- Space after code -->
-  <style name="VisualWhitespace" foreground="#263238"/>
+  <style name="VisualWhitespace" foreground="#1C1F2B"/>
    <!-- Keywords: package, import, func, return, if, type, interface -->
    <!-- Also controls the command at the top of the Build Output window -->
-  <style name="Keyword" foreground="#c792ea" bold="false"/>
+  <style name="Keyword" foreground="#c792ea" bold="true" italic="true"/>
    <!-- Keywords: string, error, int, bool, rune, byte-->
   <style name="DataType" foreground="#FFCB6B" bold="false" /> 
    <!-- Numbers: 1, 1.2, 2.0-->
-  <style name="Decimal" foreground="#F77669" bold="false"/>
+  <style name="Decimal" foreground="#F32855" bold="true"/>
    <!-- NO IDEA -->
   <style name="BaseN" foreground="yellow" bold="false"/>
    <!-- NO IDEA -->
   <style name="Float" foreground="yellow" bold="false"/>
    <!-- Text: 'c' -->
   <style name="Char" foreground="#C3E88D"/>
-   <!-- Text: "word" -->
-  <style name="String" foreground="#C3E88D"/>
-   <!-- Text: // This is a comment -->
+   <!-- Text: "word" C3E88D -->
+  <style name="String" foreground="#B9CA4A" background="#363152" italic="true"/>
+   <!-- Text: // This is a comment  -->
   <style name="Comment" foreground="#546E7A" italic="true"/>
    <!-- Yellow line for warnings, left side of IDE-->
   <style name="Alert" foreground="yellow"/>
@@ -48,11 +48,11 @@
    <!-- Functions: make(), len()-->
   <style name="BuiltinFunc" foreground="#89DDFF" bold="false"/>
    <!-- Variables: true, false, nil -->
-  <style name="Predeclared" foreground="#F77669" bold="false"/>
+  <style name="Predeclared" foreground="#E78C45" italic="true"/>
    <!-- Functions like: main and any other function name -->
   <style name="FuncDecl" foreground="#82AAFF"/>
    <!-- NO IDEA -->
   <style name="Placeholder" foreground="yellow"/>
    <!-- Declaration: // TODO -->
-  <style name="ToDo" foreground="#ffcb6b" background="#263238" bold="true"/>
+  <style name="ToDo" foreground="#ffcb6b" background="#1C1F2B" bold="true"/>
 </style-scheme>
