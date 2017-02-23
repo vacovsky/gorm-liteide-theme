@@ -13,7 +13,7 @@
   <!-- Text highlighting -->
   <style name="Selection" background="#314549"/>
    <!-- Current line where the cursor is -->
-  <style name="CurrentLine" background="#1C1F2B"/>
+  <style name="CurrentLine" background="#242737"/>
    <!-- 80 pixel margins -->
   <style name="IndentLine" foreground="#80CBC4"/>
    <!-- Space after code -->
